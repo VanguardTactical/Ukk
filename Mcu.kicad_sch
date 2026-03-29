@@ -5588,6 +5588,222 @@
 		)
 		(uuid "bb882409-8dd7-42b4-817a-5e2b321ffcac")
 	)
+	(global_label "ETH_TXD1"
+		(shape input)
+		(at 137.16 68.58 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "01c654e2-8ada-48d9-961a-b92b896b224a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.16 56.5235 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ETH_REF_CLK"
+		(shape input)
+		(at 63.5 68.58 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "15cdffa1-f5bf-4c7d-bd59-b307019a846d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 53.1368 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ETH_MDC"
+		(shape input)
+		(at 149.86 68.58 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b6571ad-2e02-4967-8208-56da6966a678")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.86 57.1887 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ETH_CRS_DV"
+		(shape input)
+		(at 78.74 68.58 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "28207205-11d9-4821-8caa-36f1bb1e74ab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 78.74 54.1044 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ETH_MDIO"
+		(shape input)
+		(at 66.04 68.58 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "62ded3e6-06c5-41bb-a8c0-895dfb4e5ce6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.04 56.5234 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ETH_TXD0"
+		(shape input)
+		(at 134.62 68.58 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6b8bb232-400d-4791-85a2-e64d889e8987")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.62 56.5235 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ETH_TXEN"
+		(shape input)
+		(at 132.08 68.58 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "82a978fb-6b4b-4eb6-a4b5-9bd10127bff3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.08 56.5235 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ETH_RXD0"
+		(shape input)
+		(at 152.4 68.58 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e0834ef3-1ca9-43c9-b281-fc25683bc27a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.4 56.2211 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ETH_RXD1"
+		(shape input)
+		(at 154.94 68.58 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "effc9e9d-2c09-4d3e-8579-7dc857d2c937")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.94 56.2211 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 109.22 25.4 0)
@@ -5661,7 +5877,7 @@
 			(uuid "f4d44bc1-2e7e-4cd0-8734-d222eefdcc4e")
 		)
 		(instances
-			(project "ukk"
+			(project "Ukk"
 				(path "/2375ab6f-0d27-47c2-8e53-820af89ba359/f98785f8-f29f-4c13-9176-63f16dbbf831"
 					(reference "C12")
 					(unit 1)
@@ -5739,7 +5955,7 @@
 			(uuid "0693dd1d-94b5-4dfc-806a-a64abb8de4d0")
 		)
 		(instances
-			(project "ukk"
+			(project "Ukk"
 				(path "/2375ab6f-0d27-47c2-8e53-820af89ba359/f98785f8-f29f-4c13-9176-63f16dbbf831"
 					(reference "#PWR06")
 					(unit 1)
@@ -5817,7 +6033,7 @@
 			(uuid "e2a2e5ae-56bd-4c52-af40-f05a7bdf4ef0")
 		)
 		(instances
-			(project "ukk"
+			(project "Ukk"
 				(path "/2375ab6f-0d27-47c2-8e53-820af89ba359/f98785f8-f29f-4c13-9176-63f16dbbf831"
 					(reference "#PWR05")
 					(unit 1)
@@ -5895,7 +6111,7 @@
 			(uuid "8af26ebe-6bc7-4e35-9d59-641435e54704")
 		)
 		(instances
-			(project "ukk"
+			(project "Ukk"
 				(path "/2375ab6f-0d27-47c2-8e53-820af89ba359/f98785f8-f29f-4c13-9176-63f16dbbf831"
 					(reference "#PWR02")
 					(unit 1)
@@ -5987,7 +6203,7 @@
 			(uuid "774f3587-7b37-403b-9ec6-960e18df2dea")
 		)
 		(instances
-			(project "ukk"
+			(project "Ukk"
 				(path "/2375ab6f-0d27-47c2-8e53-820af89ba359/f98785f8-f29f-4c13-9176-63f16dbbf831"
 					(reference "J1")
 					(unit 1)
@@ -6068,7 +6284,7 @@
 			(uuid "500033d2-ec0e-4701-809c-5321e8cbf8fc")
 		)
 		(instances
-			(project "ukk"
+			(project "Ukk"
 				(path "/2375ab6f-0d27-47c2-8e53-820af89ba359/f98785f8-f29f-4c13-9176-63f16dbbf831"
 					(reference "C5")
 					(unit 1)
@@ -6149,7 +6365,7 @@
 			(uuid "9f4ae89b-0524-4675-9d1c-eec241db6dd6")
 		)
 		(instances
-			(project "ukk"
+			(project "Ukk"
 				(path "/2375ab6f-0d27-47c2-8e53-820af89ba359/f98785f8-f29f-4c13-9176-63f16dbbf831"
 					(reference "C6")
 					(unit 1)
@@ -6230,7 +6446,7 @@
 			(uuid "6efd0463-9c58-429c-af1b-fd56adb6c8c5")
 		)
 		(instances
-			(project "ukk"
+			(project "Ukk"
 				(path "/2375ab6f-0d27-47c2-8e53-820af89ba359/f98785f8-f29f-4c13-9176-63f16dbbf831"
 					(reference "C8")
 					(unit 1)
@@ -6311,7 +6527,7 @@
 			(uuid "40bd8386-9e27-4f5f-9728-447f7e400a31")
 		)
 		(instances
-			(project "ukk"
+			(project "Ukk"
 				(path "/2375ab6f-0d27-47c2-8e53-820af89ba359/f98785f8-f29f-4c13-9176-63f16dbbf831"
 					(reference "C13")
 					(unit 1)
@@ -6390,7 +6606,7 @@
 			(uuid "33c57594-fb4b-40a5-b1cf-b1c1605427c6")
 		)
 		(instances
-			(project "ukk"
+			(project "Ukk"
 				(path "/2375ab6f-0d27-47c2-8e53-820af89ba359/f98785f8-f29f-4c13-9176-63f16dbbf831"
 					(reference "C2")
 					(unit 1)
@@ -6467,7 +6683,7 @@
 			(uuid "89febd1b-a098-4c81-b08b-21531eb3a182")
 		)
 		(instances
-			(project "ukk"
+			(project "Ukk"
 				(path "/2375ab6f-0d27-47c2-8e53-820af89ba359/f98785f8-f29f-4c13-9176-63f16dbbf831"
 					(reference "#PWR01")
 					(unit 1)
@@ -6548,7 +6764,7 @@
 			(uuid "74c02b68-264c-4633-9908-93f370404a62")
 		)
 		(instances
-			(project "ukk"
+			(project "Ukk"
 				(path "/2375ab6f-0d27-47c2-8e53-820af89ba359/f98785f8-f29f-4c13-9176-63f16dbbf831"
 					(reference "C16")
 					(unit 1)
@@ -6626,7 +6842,7 @@
 			(uuid "12f7a8b3-2350-443b-841f-7970b3b2c153")
 		)
 		(instances
-			(project "ukk"
+			(project "Ukk"
 				(path "/2375ab6f-0d27-47c2-8e53-820af89ba359/f98785f8-f29f-4c13-9176-63f16dbbf831"
 					(reference "#PWR04")
 					(unit 1)
@@ -6707,7 +6923,7 @@
 			(uuid "250ff54e-19da-4a91-a7f8-7583f0233c36")
 		)
 		(instances
-			(project "ukk"
+			(project "Ukk"
 				(path "/2375ab6f-0d27-47c2-8e53-820af89ba359/f98785f8-f29f-4c13-9176-63f16dbbf831"
 					(reference "C17")
 					(unit 1)
@@ -6785,7 +7001,7 @@
 			(uuid "9d0fc466-5172-44f4-979a-ae0b02e514ba")
 		)
 		(instances
-			(project "ukk"
+			(project "Ukk"
 				(path "/2375ab6f-0d27-47c2-8e53-820af89ba359/f98785f8-f29f-4c13-9176-63f16dbbf831"
 					(reference "#PWR03")
 					(unit 1)
@@ -6866,7 +7082,7 @@
 			(uuid "28a8518d-bac3-4237-8a3f-9a245ebd2da8")
 		)
 		(instances
-			(project "ukk"
+			(project "Ukk"
 				(path "/2375ab6f-0d27-47c2-8e53-820af89ba359/f98785f8-f29f-4c13-9176-63f16dbbf831"
 					(reference "C11")
 					(unit 1)
@@ -6945,7 +7161,7 @@
 			(uuid "6fae4c9a-e31f-4559-b95d-de700a137b2f")
 		)
 		(instances
-			(project "ukk"
+			(project "Ukk"
 				(path "/2375ab6f-0d27-47c2-8e53-820af89ba359/f98785f8-f29f-4c13-9176-63f16dbbf831"
 					(reference "C1")
 					(unit 1)
@@ -7023,7 +7239,7 @@
 			(uuid "3dc5880e-da54-4168-b2aa-9409ddd969ae")
 		)
 		(instances
-			(project "ukk"
+			(project "Ukk"
 				(path "/2375ab6f-0d27-47c2-8e53-820af89ba359/f98785f8-f29f-4c13-9176-63f16dbbf831"
 					(reference "#PWR07")
 					(unit 1)
@@ -7104,7 +7320,7 @@
 			(uuid "4bde242f-d414-4dee-a36f-f4ad9c5c6a8d")
 		)
 		(instances
-			(project "ukk"
+			(project "Ukk"
 				(path "/2375ab6f-0d27-47c2-8e53-820af89ba359/f98785f8-f29f-4c13-9176-63f16dbbf831"
 					(reference "C7")
 					(unit 1)
@@ -7185,7 +7401,7 @@
 			(uuid "e7b65a69-30ef-4f52-ae5a-b39ff9db24d3")
 		)
 		(instances
-			(project "ukk"
+			(project "Ukk"
 				(path "/2375ab6f-0d27-47c2-8e53-820af89ba359/f98785f8-f29f-4c13-9176-63f16dbbf831"
 					(reference "C4")
 					(unit 1)
@@ -7266,7 +7482,7 @@
 			(uuid "a4371c0c-852f-4e65-8ba7-cef2919fe11a")
 		)
 		(instances
-			(project "ukk"
+			(project "Ukk"
 				(path "/2375ab6f-0d27-47c2-8e53-820af89ba359/f98785f8-f29f-4c13-9176-63f16dbbf831"
 					(reference "C10")
 					(unit 1)
@@ -7347,7 +7563,7 @@
 			(uuid "fb8f2479-1d3c-47a9-9d91-c277bf4ee66f")
 		)
 		(instances
-			(project "ukk"
+			(project "Ukk"
 				(path "/2375ab6f-0d27-47c2-8e53-820af89ba359/f98785f8-f29f-4c13-9176-63f16dbbf831"
 					(reference "C9")
 					(unit 1)
@@ -7429,7 +7645,7 @@
 			(uuid "21e65ec3-976c-4d05-a830-b298f6016c5d")
 		)
 		(instances
-			(project "ukk"
+			(project "Ukk"
 				(path "/2375ab6f-0d27-47c2-8e53-820af89ba359/f98785f8-f29f-4c13-9176-63f16dbbf831"
 					(reference "R1")
 					(unit 1)
@@ -7510,7 +7726,7 @@
 			(uuid "be463f1d-1b71-43db-af6a-5c882d1fcf51")
 		)
 		(instances
-			(project "ukk"
+			(project "Ukk"
 				(path "/2375ab6f-0d27-47c2-8e53-820af89ba359/f98785f8-f29f-4c13-9176-63f16dbbf831"
 					(reference "C3")
 					(unit 1)
@@ -7590,7 +7806,7 @@
 			(uuid "9a5fd42c-658e-4890-be22-6f4ee03ec8d2")
 		)
 		(instances
-			(project "ukk"
+			(project "Ukk"
 				(path "/2375ab6f-0d27-47c2-8e53-820af89ba359/f98785f8-f29f-4c13-9176-63f16dbbf831"
 					(reference "R2")
 					(unit 1)
@@ -7671,7 +7887,7 @@
 			(uuid "f6b5c62d-a8b5-417f-a930-ed9ae2a8eaec")
 		)
 		(instances
-			(project "ukk"
+			(project "Ukk"
 				(path "/2375ab6f-0d27-47c2-8e53-820af89ba359/f98785f8-f29f-4c13-9176-63f16dbbf831"
 					(reference "C14")
 					(unit 1)
@@ -8178,7 +8394,7 @@
 			(uuid "522f1567-aecf-44f2-8bb6-d155f7c98718")
 		)
 		(instances
-			(project "ukk"
+			(project "Ukk"
 				(path "/2375ab6f-0d27-47c2-8e53-820af89ba359/f98785f8-f29f-4c13-9176-63f16dbbf831"
 					(reference "U1")
 					(unit 1)
@@ -8259,7 +8475,7 @@
 			(uuid "07c5021a-14e9-43fc-ae65-89aef94dce01")
 		)
 		(instances
-			(project "ukk"
+			(project "Ukk"
 				(path "/2375ab6f-0d27-47c2-8e53-820af89ba359/f98785f8-f29f-4c13-9176-63f16dbbf831"
 					(reference "C15")
 					(unit 1)

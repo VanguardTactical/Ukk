@@ -713,7 +713,7 @@
 			(uuid "1faba6ba-79df-4383-922a-1cb96ee77d18")
 		)
 		(instances
-			(project "ukk"
+			(project "Ukk"
 				(path "/2375ab6f-0d27-47c2-8e53-820af89ba359/3bbb642a-0454-4b01-927d-4c7713c116f2"
 					(reference "U2")
 					(unit 1)
