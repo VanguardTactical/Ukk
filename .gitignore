@@ -1,6 +1,7 @@
 # KiCad project local settings
 *.kicad_prl
 *.kicad_lck
+*.lck
 
 # KiCad temporary and backup files
 *.bak
