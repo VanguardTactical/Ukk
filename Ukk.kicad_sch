@@ -21,7 +21,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "153fc4db-9928-4006-bb3c-f612c03cb747")
-		(property "Sheetname" "power"
+		(property "Sheetname" "Power"
 			(at 36.83 114.8584 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -67,7 +67,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "3bbb642a-0454-4b01-927d-4c7713c116f2")
-		(property "Sheetname" "imu"
+		(property "Sheetname" "Imu"
 			(at 154.94 114.8584 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -98,6 +98,98 @@
 		)
 	)
 	(sheet
+		(at 170.18 60.96)
+		(size 17.78 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "5ed8c3c0-d4b3-4080-858e-bb8389e2c082")
+		(property "Sheetname" "Usb"
+			(at 170.18 60.2484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Usb.kicad_sch"
+			(at 170.18 84.4046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Ukk"
+				(path "/2375ab6f-0d27-47c2-8e53-820af89ba359"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 274.32 68.58)
+		(size 12.7 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "61a05d1f-1fbb-411d-805d-699096f10298")
+		(property "Sheetname" "Sd"
+			(at 274.32 67.8684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sd.kicad_sch"
+			(at 274.32 94.5646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Ukk"
+				(path "/2375ab6f-0d27-47c2-8e53-820af89ba359"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 93.98 59.69)
 		(size 30.48 25.4)
 		(exclude_from_sim no)
@@ -113,7 +205,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "d1dcea81-0aa4-4aff-957c-15fb2904a6f4")
-		(property "Sheetname" "eth"
+		(property "Sheetname" "Eth"
 			(at 93.98 58.9784 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -159,7 +251,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "f98785f8-f29f-4c13-9176-63f16dbbf831")
-		(property "Sheetname" "mcu"
+		(property "Sheetname" "Mcu"
 			(at 39.37 149.1484 0)
 			(show_name no)
 			(do_not_autoplace no)
