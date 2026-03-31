@@ -632,7 +632,7 @@
         "uuid": "2375ab6f-0d27-47c2-8e53-820af89ba359"
       }
     ],
-    "used_designators": "U4,D1,#PWR10,#PWR15-22,J3,R5-8,C24-28,FB1",
+    "used_designators": "U4,D1,#PWR10,#PWR12,#PWR15-23,J3,R5-12,C20-21,C24-28,FB1",
     "variants": []
   },
   "sheets": [
@@ -659,10 +659,6 @@
     [
       "5ed8c3c0-d4b3-4080-858e-bb8389e2c082",
       "Usb"
-    ],
-    [
-      "61a05d1f-1fbb-411d-805d-699096f10298",
-      "Sd"
     ]
   ],
   "text_variables": {},

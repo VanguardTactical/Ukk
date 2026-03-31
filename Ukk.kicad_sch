@@ -144,52 +144,6 @@
 		)
 	)
 	(sheet
-		(at 274.32 68.58)
-		(size 12.7 25.4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "61a05d1f-1fbb-411d-805d-699096f10298")
-		(property "Sheetname" "Sd"
-			(at 274.32 67.8684 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Sd.kicad_sch"
-			(at 274.32 94.5646 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Ukk"
-				(path "/2375ab6f-0d27-47c2-8e53-820af89ba359"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 93.98 59.69)
 		(size 30.48 25.4)
 		(exclude_from_sim no)

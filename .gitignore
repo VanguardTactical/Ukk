@@ -48,6 +48,9 @@ out/
 # Backup directories (wildcard)
 *backup*/
 
+# VS Code local history
+.history/
+
 # Operating system / editor noise
 .DS_Store
 Thumbs.db
