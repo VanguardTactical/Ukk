@@ -3195,12 +3195,6 @@
 		(uuid "46433622-81e3-4cf3-89e0-1180e2a3e2f3")
 	)
 	(junction
-		(at 152.4 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59d72b45-7e2b-4ca8-bb37-3694b977789c")
-	)
-	(junction
 		(at 38.1 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3217,6 +3211,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2bdcdd3-557d-4be7-a026-23cf0fe6a36b")
+	)
+	(junction
+		(at 153.67 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6c12835-4b04-423c-ac77-6dd0bd7a3023")
 	)
 	(junction
 		(at 133.35 26.67)
@@ -3298,16 +3298,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 105.41) (xy 134.62 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05e98224-7e33-4dff-9c6e-97645d90cfe1")
-	)
-	(wire
-		(pts
 			(xy 134.62 110.49) (xy 139.7 110.49)
 		)
 		(stroke
@@ -3385,6 +3375,16 @@
 			(type default)
 		)
 		(uuid "1918490b-9950-480b-b54b-eccaeae29057")
+	)
+	(wire
+		(pts
+			(xy 153.67 99.06) (xy 153.67 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19755035-e420-4e8f-ac47-f82316f9caf2")
 	)
 	(wire
 		(pts
@@ -3508,26 +3508,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 83.82) (xy 54.61 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "432e7c2a-f365-4663-83eb-fbb2b07fc8ce")
-	)
-	(wire
-		(pts
-			(xy 38.1 83.82) (xy 38.1 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "491575e4-b276-4b69-bd7c-b5eea1c190d1")
-	)
-	(wire
-		(pts
 			(xy 165.1 55.88) (xy 165.1 52.07)
 		)
 		(stroke
@@ -3638,7 +3618,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 105.41) (xy 152.4 105.41)
+			(xy 134.62 105.41) (xy 153.67 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3818,6 +3798,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 105.41) (xy 233.68 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adb89388-c3c0-485f-9b82-d7e1232227d6")
+	)
+	(wire
+		(pts
 			(xy 176.53 55.88) (xy 176.53 52.07)
 		)
 		(stroke
@@ -3935,16 +3925,6 @@
 			(type default)
 		)
 		(uuid "e09c44bf-1993-47bf-ae69-d61a853739c6")
-	)
-	(wire
-		(pts
-			(xy 152.4 113.03) (xy 152.4 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0bf5d81-4669-44bd-a680-8b1434f9f2fd")
 	)
 	(wire
 		(pts
@@ -4708,7 +4688,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 152.4 116.84 0)
+		(at 153.67 101.6 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4719,7 +4699,7 @@
 		(fields_autoplaced yes)
 		(uuid "15aaa22c-ffbf-4f61-875d-ff2bbba74c17")
 		(property "Reference" "R6"
-			(at 154.94 115.5699 0)
+			(at 151.13 102.8701 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4730,7 +4710,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 154.94 118.1099 0)
+			(at 151.13 100.3301 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4741,7 +4721,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 150.622 116.84 90)
+			(at 155.448 101.6 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4752,7 +4732,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 116.84 0)
+			(at 153.67 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4763,7 +4743,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 152.4 116.84 0)
+			(at 153.67 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6231,7 +6211,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 38.1 82.55 0)
+		(at 38.1 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6242,7 +6222,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ea0db43-dff9-4f1e-a8df-436c15c4f386")
 		(property "Reference" "#PWR08"
-			(at 38.1 86.36 0)
+			(at 38.1 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6252,8 +6232,8 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 38.1 77.47 0)
+		(property "Value" "USB_3V3"
+			(at 38.1 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6263,7 +6243,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 82.55 0)
+			(at 38.1 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6274,7 +6254,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 82.55 0)
+			(at 38.1 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6285,7 +6265,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 38.1 82.55 0)
+			(at 38.1 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6396,7 +6376,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9b0f94f6-eb48-4f8a-b1d1-b179d98e1f57")
 		(property "Reference" "#PWR016"
 			(at 240.03 87.63 0)
@@ -6409,8 +6388,8 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 240.03 78.74 0)
+		(property "Value" "USB_3V3"
+			(at 239.776 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6787,7 +6766,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 152.4 120.65 180)
+		(at 153.67 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6795,10 +6774,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b3a1e08b-b20a-421a-a3a0-d557934f3285")
 		(property "Reference" "#PWR017"
-			(at 152.4 116.84 0)
+			(at 153.67 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6808,8 +6786,8 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 152.4 125.73 0)
+		(property "Value" "USB_3V3"
+			(at 153.67 95.504 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6819,7 +6797,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 120.65 0)
+			(at 153.67 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6830,7 +6808,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 120.65 0)
+			(at 153.67 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6841,7 +6819,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 152.4 120.65 0)
+			(at 153.67 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7112,7 +7090,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c6dd52fa-3ee6-4cf4-a1bd-b6c8ff7104af")
 		(property "Reference" "#PWR021"
 			(at 38.1 30.48 0)
@@ -7125,14 +7102,15 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 38.1 21.59 0)
+		(property "Value" "USB_3V3"
+			(at 34.544 22.606 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -7260,7 +7238,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 54.61 82.55 0)
+		(at 54.61 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7271,7 +7249,7 @@
 		(fields_autoplaced yes)
 		(uuid "e34e6b27-e847-4354-ad42-fad7d1cd3829")
 		(property "Reference" "#PWR023"
-			(at 54.61 86.36 0)
+			(at 54.61 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7281,8 +7259,8 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 54.61 77.47 0)
+		(property "Value" "USB_3V3"
+			(at 54.61 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7292,7 +7270,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 82.55 0)
+			(at 54.61 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7303,7 +7281,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 82.55 0)
+			(at 54.61 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7314,7 +7292,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 54.61 82.55 0)
+			(at 54.61 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7346,7 +7324,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e8e4509e-859b-4931-b94b-4c0d7bb04319")
 		(property "Reference" "#PWR018"
 			(at 74.93 22.86 0)
@@ -7359,14 +7336,15 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 74.93 13.97 0)
+		(property "Value" "USB_3V3"
+			(at 72.136 14.732 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
