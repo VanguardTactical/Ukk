@@ -632,7 +632,7 @@
         "uuid": "2375ab6f-0d27-47c2-8e53-820af89ba359"
       }
     ],
-    "used_designators": "C15,C29,#PWR28-29",
+    "used_designators": "U6-7",
     "variants": []
   },
   "sheets": [
@@ -647,10 +647,6 @@
     [
       "3bbb642a-0454-4b01-927d-4c7713c116f2",
       "Imu"
-    ],
-    [
-      "153fc4db-9928-4006-bb3c-f612c03cb747",
-      "Power"
     ],
     [
       "d1dcea81-0aa4-4aff-957c-15fb2904a6f4",

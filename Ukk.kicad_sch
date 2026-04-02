@@ -6,52 +6,6 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 36.83 115.57)
-		(size 45.72 17.78)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "153fc4db-9928-4006-bb3c-f612c03cb747")
-		(property "Sheetname" "Power"
-			(at 36.83 114.8584 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "power.kicad_sch"
-			(at 36.83 133.9346 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Ukk"
-				(path "/2375ab6f-0d27-47c2-8e53-820af89ba359"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 154.94 115.57)
 		(size 38.1 17.78)
 		(exclude_from_sim no)
@@ -78,7 +32,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "imu.kicad_sch"
+		(property "Sheetfile" "Imu.kicad_sch"
 			(at 154.94 133.9346 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -170,7 +124,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "eth.kicad_sch"
+		(property "Sheetfile" "Eth.kicad_sch"
 			(at 93.98 85.6746 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -216,7 +170,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "mcu.kicad_sch"
+		(property "Sheetfile" "Mcu.kicad_sch"
 			(at 39.37 173.3046 0)
 			(show_name no)
 			(do_not_autoplace no)

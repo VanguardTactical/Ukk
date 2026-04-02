@@ -1918,12 +1918,6 @@
 		(uuid "2e5f54bb-86f5-42b6-bb25-73f304e429d5")
 	)
 	(junction
-		(at 170.18 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "38d80d65-aae8-480e-b9e6-02a7bc05e107")
-	)
-	(junction
 		(at 87.63 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2033,16 +2027,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 76.2) (xy 162.56 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58016b18-88da-48bc-b022-c65ad313cfca")
-	)
-	(wire
-		(pts
 			(xy 114.3 111.76) (xy 114.3 106.68)
 		)
 		(stroke
@@ -2050,26 +2034,6 @@
 			(type default)
 		)
 		(uuid "6725dc28-500d-4cd6-a1d4-9312ac7f89cf")
-	)
-	(wire
-		(pts
-			(xy 170.18 73.66) (xy 186.69 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "737b9649-8334-400c-be63-b6a1094925d4")
-	)
-	(wire
-		(pts
-			(xy 162.56 73.66) (xy 170.18 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d00e167-94fe-47ad-aa8a-cd22abd9310a")
 	)
 	(wire
 		(pts
@@ -2173,16 +2137,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 73.66) (xy 170.18 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e08339c0-f3d6-49f0-92b8-8c9cb0910c5a")
-	)
-	(wire
-		(pts
 			(xy 147.32 93.98) (xy 114.3 93.98)
 		)
 		(stroke
@@ -2190,16 +2144,6 @@
 			(type default)
 		)
 		(uuid "eccc9c61-3025-452c-bc08-038bd65943da")
-	)
-	(wire
-		(pts
-			(xy 186.69 73.66) (xy 186.69 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f59112f0-07e1-4092-89e3-c1a0ca32900a")
 	)
 	(global_label "USB_VBUS"
 		(shape input)
@@ -2912,84 +2856,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 186.69 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9deade94-d5e8-4aac-b1d7-0ff140360f42")
-		(property "Reference" "#PWR010"
-			(at 186.69 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 186.69 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "16978fe1-ac85-403a-b2b7-1653dba7b031")
-		)
-		(instances
-			(project "Ukk"
-				(path "/2375ab6f-0d27-47c2-8e53-820af89ba359/5ed8c3c0-d4b3-4080-858e-bb8389e2c082"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 97.79 66.04 0)
 		(unit 1)
 		(body_style 1)
@@ -3139,6 +3005,84 @@
 			(project "Ukk"
 				(path "/2375ab6f-0d27-47c2-8e53-820af89ba359/5ed8c3c0-d4b3-4080-858e-bb8389e2c082"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 170.18 76.2 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2b11f83-5664-4113-9b3a-73bf98c47103")
+		(property "Reference" "#PWR031"
+			(at 170.18 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af409bd0-8381-4191-ab98-bea261d83ebf")
+		)
+		(instances
+			(project "Ukk"
+				(path "/2375ab6f-0d27-47c2-8e53-820af89ba359/5ed8c3c0-d4b3-4080-858e-bb8389e2c082"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -3497,6 +3441,84 @@
 			(project "Ukk"
 				(path "/2375ab6f-0d27-47c2-8e53-820af89ba359/5ed8c3c0-d4b3-4080-858e-bb8389e2c082"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 162.56 76.2 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff64f036-b096-48aa-be8b-7a5fa6d5618b")
+		(property "Reference" "#PWR030"
+			(at 162.56 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "57e4b908-9566-4c6c-8e80-22ff2df30c4d")
+		)
+		(instances
+			(project "Ukk"
+				(path "/2375ab6f-0d27-47c2-8e53-820af89ba359/5ed8c3c0-d4b3-4080-858e-bb8389e2c082"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
